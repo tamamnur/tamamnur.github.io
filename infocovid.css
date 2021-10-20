@@ -23,7 +23,7 @@ header{
     margin: 0px 10px 5px 10px;    
 }
 .center {
-    width: 65%;
+    width: 63%;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: white;
     font-size: 50PX;
@@ -36,10 +36,12 @@ header{
     float: right;
     background-color: rgb(29, 138, 165);
     transition: all 0.5s;
+    width: 20%;
+
 }
 .right a{ 
     line-height:50px;
-    width: 220px;
+    
     padding: 25px 25px;
     color: white;
     text-decoration: none;
@@ -104,6 +106,18 @@ li {
 
 
 }
+/*@media (max-width:1000px){
+    li {
+        height: 200px;
+        width: 40%;
+    }
+    .dosis1 {
+        width: 990px;
+
+
+    }
+}
+*/
 li h1 {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -188,3 +202,31 @@ li p {
   .btn-menu:hover {
     opacity: 1;
   }
+
+  footer {
+      background-color: #68bbf3;
+      color: rgb(17, 16, 16);
+      height: 100px;
+      padding: 20px 0 40px 40px;
+  }
+  footer p {
+      font-size: 32px;
+      vertical-align: middle;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .cright {
+      font-size: 15px;
+  }
+
+.list {
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 0;
+    
+}
+.list li {
+      margin: 0;
+      
+  
+}
