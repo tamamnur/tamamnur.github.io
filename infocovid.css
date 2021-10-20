@@ -1,0 +1,190 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(18, 179, 211, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+}
+.left{
+    width: 100px;
+    height: 95px;
+    float: left;
+}
+.logo{
+    margin: 0px 10px 5px 10px;    
+}
+.center {
+    width: 65%;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: white;
+    font-size: 50PX;
+    font-weight: bolder;
+    color: rgb(48, 37, 37);
+    float:left;
+    margin: 25px 5px 5px 140px;   
+}
+.right {
+    float: right;
+    background-color: rgb(29, 138, 165);
+    transition: all 0.5s;
+}
+.right a{ 
+    line-height:50px;
+    width: 220px;
+    padding: 25px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: block;
+    text-align: center;
+}
+.right a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.title {
+    width: 100%;
+    padding: 160px 0 100px 0;
+    background-image: url(https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/04/12/3701723007.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.subtitle {
+    padding: 10px 50px 50px 10px;
+    margin: auto;
+    background-color:rgba(221, 238, 241, 0.7)
+}
+  
+.subtitle h1 {
+    text-align: center;
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin: 25px;
+  }
+  
+.subtitle p {
+    opacity: 0.7;
+    margin: 15px 55px;
+    font-size: 20px;
+  }
+
+.main {
+    width: 100%;
+    background-color: #ecf0f1 ;
+}
+.main h1 {
+    text-align: center;
+    padding: 25px;
+    opacity: .7;
+}
+/*ul{
+
+}
+*/
+li {
+    
+    height: 230px;
+    margin: 20px 25px 50px 25px;
+    padding-left: 10px;
+    list-style: none;
+    display: inline-block;
+    width: 21%;
+
+
+}
+li h1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+li p {
+    font-size:30px;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    opacity: .6;
+}
+.konfirm {
+    background-color: blue;
+    
+}
+.aktif {
+    background-color: grey;
+    
+}
+.sembuh {
+    background-color: palegreen;
+    }
+.meninggal {
+    background-color: salmon; 
+}
+.dosis1 {
+    background-color: skyblue;
+    width: 46%;
+}
+.dosis2 {
+    background-color: #f7b731;
+    width: 46%
+}
+.data{
+    display: flex;
+    align-items: center;
+}
+.data li {
+    flex-direction:column;
+}
+.menu-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .menu {
+    float: left;
+    width: 25%;
+  }
+  
+  .menu-icon {
+    position: relative;
+  }
+  
+  .menu-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .btn-menu:hover {
+    opacity: 1;
+  }

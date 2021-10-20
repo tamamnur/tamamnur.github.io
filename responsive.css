@@ -1,0 +1,42 @@
+@media all and (max-width:1000px) {
+    .left {
+        width:80px;
+    }
+    .center {
+        width: 60%;
+        font-size: 32px;
+        margin: 35px 0px 0px 140px;   
+        ;
+    }
+    .right a {
+        width: 120px;
+    }
+
+
+}
+
+@media all and (max-width:600px) {
+    .left {
+        width:80px;
+    }
+    .center {
+        width: 60%;
+        font-size: 32px;
+        margin: 35px 0px 0px 140px;   
+        ;
+    }
+    .right a {
+        width: 100px;
+    }
+
+    .data {
+        flex-direction:column;
+    }
+    .data li {
+        margin: auto 0;
+        width:max-content;
+    }
+    .konfirm. aktif .sembuh {
+
+    }
+}
